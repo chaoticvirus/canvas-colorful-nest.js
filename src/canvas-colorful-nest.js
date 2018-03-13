@@ -20,7 +20,7 @@
         script = scripts[script_len - 1];
         return {
             z: get_attribute(script, "zIndex", -1), //z-index
-            o: get_attribute(script, "opacity", 0.1), //opacity
+            o: get_attribute(script, "opacity", 0.15), //opacity
             n: get_attribute(script, "count", 150), //count
             s: get_attribute(script, "speed", 0.8), //speed
             l: get_attribute(script, "lines", 3), //lines
